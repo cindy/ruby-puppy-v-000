@@ -10,4 +10,7 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+
+  def all
+  end
 end
