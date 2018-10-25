@@ -6,4 +6,9 @@ class Dog
   def initialize(name)
     @name = name
   end
+
+  private
+  def clear_all
+    @all = []
+  end
 end
