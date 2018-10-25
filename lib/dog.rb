@@ -9,6 +9,6 @@ class Dog
 
   private
   def clear_all
-    @all = []
+    @@all.clear
   end
 end
